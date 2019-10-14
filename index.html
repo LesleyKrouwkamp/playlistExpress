@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <title>Playlist</title>
+</head>
+<body>
+
+    <div>
+        <form method="POST" action="/submit-form">
+        <input  class="top" type="text" name="top"
+         placeholder="Name of playlist(eg_HipHop_All_Day"/>
+    </div>
+
+ 
+      <form  method="POST" action="/data.js">
+          <ul class="box">
+          <h5>List of musicions</h5>
+          <li name="result"> </li>
+        </ul>
+          </form>          
+                <input id="input1" type="text" placeholder="(enter musician name)" />
+                <button type="submit" id="btn1">Add</button>
+              
+              <br>
+              <br>
+                <input id="input2" type="text"  placeholder="(enter new musician name)" />
+                <input id="inputs" type="text"  placeholder="(ID: musician you want to change)" />
+                <button id="btn1" type="submit" name="btn2">Edit</button> 
+            
+        <br><br>
+            <input id="inputs" name="name" placeholder="(ID: musician you want to delete)" />
+            <button type="submit" id="btn1">Delete</button><br>
+          
+
+            <button id="btn2">Sort List</button>
+
+            
+</body>
+</html>

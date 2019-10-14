@@ -1,0 +1,54 @@
+body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px;
+    background-color: lightgrey;
+    width:  15em;
+    padding: 100px;
+    margin-top: 10%;
+    text-align: left;
+   
+}
+.top{
+    width: 80%;
+    padding: 25px;
+    margin-top: 4%;
+    margin-left: 9%;
+    background-color: lightgray;
+    text-align: center;
+}
+h5{
+ 
+}
+#input1{
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 10%;
+   
+     
+}
+#input2{
+    width: 18%;
+    margin-left: 40%;
+    
+    
+    
+}
+#inputs{
+    width: 9%;
+    margin-left: 40%;
+   
+}
+#btn1{
+
+}
+#btn2{
+    margin-top: 20%;
+    margin-left: 25%;
+}

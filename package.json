@@ -1,0 +1,20 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "startA": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "playlist"
+  ],
+  "author": "Lesley Krouwkamp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "g": "^2.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
